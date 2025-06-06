@@ -11,7 +11,7 @@ class API:
     ID = int(os.environ.get("API_ID", 16767636))
 
 class OWNER:
-    ID = int(os.environ.get("OWNER", 808533633))
+    ID = int(os.environ.get("OWNER", ))
 
 class WEB:
     PORT = int(os.environ.get("PORT", 8000))
