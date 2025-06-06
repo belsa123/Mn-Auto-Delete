@@ -18,4 +18,4 @@ class WEB:
 
 class CHATS:
     IDS = list(map(int, os.environ.get("CHATS", "-1002242134235 -1002284460452").split())) if os.environ.get("CHATS") else []
-    DELETE_DELAY = int(os.environ.get("DELETE_DELAY", "5")) 
+    DELETE_DELAY = int(os.environ.get("DELETE_DELAY", "120")) 
